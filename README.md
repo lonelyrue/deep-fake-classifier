@@ -76,6 +76,7 @@ model.py        SE-ResNet18 architecture (SE block, block wrapper, model, head)
 data.py         Dataset + train / val / TTA augmentation pipelines
 train.py        Training loop (weighted loss, AdamW + cosine LR, checkpointing)
 inference.py    Validation threshold search + TTA inference -> submission.csv
+visualize.py    Diagnostics: training curves, sample predictions, confidence histogram
 config.py       Paths and hyperparameters
 requirements.txt
 ```
