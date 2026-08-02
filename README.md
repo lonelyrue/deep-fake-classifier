@@ -19,6 +19,7 @@ custom implementation with a reproducible training pipeline.
 - **Metric:** F1-score, with an explicit emphasis on **recall** — the task
   penalises false negatives (a deepfake classified as real) more than false
   positives, so the model must minimise missed fakes while keeping precision reasonable.
+- **Kaggle link:** https://www.kaggle.com/competitions/ml-intensive-yandex-academy-spring-2026
 
 ## Approach
 
